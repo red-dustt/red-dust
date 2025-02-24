@@ -7,8 +7,8 @@
 }
 
 .navbar {
-  background: #131313;
-  height: 80px;
+  background:  #ff3131;;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,23 +25,53 @@
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  margin: 0 auto;
+  margin-left: 0 auto;
   padding: 0 50px;
 }
 
-#navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+ /* #navbar__logo {
+  background-color: #efff77;
+  background-image: linear-gradient(to top, #f6f681 0%, #f4f45e 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
+  margin-left: 10px;
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 26px;
+  margin-top: 10px;
+}  */
+
+#logo {
+  
+  /* height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999; */
+  background: #ffffff;
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 10px;
+      /* margin: 20px was off */
+  float: inline-start;
+  height: 48px;
+  width: auto;
+      /* correct proportions to specified height */
+  border-radius: 50%; /*makes it a circle*/
+  z-index: 1000;
+  }
+
+#joki {
+  margin-right: -10px;
+  padding: 10px;
 }
 
 .navbar__menu {
@@ -105,6 +135,8 @@
     width: 100%;
     max-width: 1300px;
     padding: 0;
+    margin-left: 4px;
+    margin-top: 1.5px;
   }
 
   .navbar__menu {
@@ -479,7 +511,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .services h1 {
