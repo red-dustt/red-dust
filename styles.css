@@ -47,25 +47,14 @@
 }  */
 
 #logo {
-  
-  /* height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.1rem;
-  position: sticky;
-  top: 0;
-  z-index: 999; */
-  background: #ffffff;
+  background: #f3f48e;
   display: inline-block;
   margin-top: 16px;
-  margin-right: 10px;
-      /* margin: 20px was off */
+  margin-right: 0px;
   float: inline-start;
   height: 48px;
   width: auto;
-      /* correct proportions to specified height */
-  border-radius: 50%; /*makes it a circle*/
+  border-radius: 50%;
   z-index: 1000;
   }
 
@@ -161,9 +150,18 @@
     font-size: 1.6rem;
   }
 
-  #navbar__logo {
-    padding-left: 25px;
-  }
+  /* #logo {
+  
+    background: #fcfe75;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 42px;
+    float: inline-start;
+    height: 48px;
+    width: auto;
+    border-radius: 50%;
+    z-index: 1000;
+    } */
 
   .navbar__toggle .bar {
     width: 25px;
@@ -222,10 +220,12 @@
   }
 }
 
+/* Header Section */
+
 /* Hero Section */
 .hero {
   background: #161616;
-  background: linear-gradient(to right, #161616, #000000);
+  background: linear-gradient(to top, ##141414 75%, #787878);
   padding: 0px 0;
 }
 
@@ -244,7 +244,7 @@
 .hero__heading {
   font-size: 100px;
   margin-bottom: 15px;
-  color: #fff;
+  color: #ff4040;
 }
 
 .hero__heading span {
@@ -293,10 +293,21 @@
 @media screen and (max-width: 768px) {
   .hero__heading {
     font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    font-weight: 1000;
+    margin-top: -7px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #ff4040;
+  
   }
 
   .hero__description {
-    font-size: 40px;
+    margin-top: -17px;
+    margin-bottom: -20px;
+    font-size: 30px;
+    line-height: 40px ;
+    font-weight: 600;
   }
 }
 
